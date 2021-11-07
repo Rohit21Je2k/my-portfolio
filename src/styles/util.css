@@ -1,0 +1,7 @@
+.wrapper {
+  --maxWidth: 1200px;
+  --padding: 30px;
+  max-width: calc(var(--maxWidth) + 2 * var(--padding));
+  margin: 0 auto;
+  padding: 0 var(--padding);
+}

@@ -1,0 +1,11 @@
+.portfolio__title {
+  margin-bottom: 24px;
+  font-size: 24px;
+  text-align: center;
+}
+
+@media screen and (min-width: 850px) {
+  .portfolio__title {
+    font-size: 32px;
+  }
+}

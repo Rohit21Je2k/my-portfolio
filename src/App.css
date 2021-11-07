@@ -1,0 +1,16 @@
+@import url("./styles/main.css");
+
+.app {
+  min-height: 100vh;
+  /* background-color: var(--bg-dark); */
+}
+
+.app-container {
+  flex-grow: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-radius: 20px;
+  background-color: var(--bg-light);
+}

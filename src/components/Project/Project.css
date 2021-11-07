@@ -1,0 +1,121 @@
+.project {
+  padding: 40px 0;
+}
+
+/* .project:nth-child(even) {
+  background-color: hsl(200, 80%, 90%);
+}
+
+.project:nth-child(odd) {
+  background-color: hsl(0, 0%, 96%);
+} */
+
+.project__title {
+  font-size: 20px;
+}
+
+.project__info {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.project__tech {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.project__tech-icon {
+  height: 30px;
+  width: auto;
+}
+
+.project__links {
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  row-gap: 12px;
+}
+
+.project__live-btn,
+.project__github-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 200px;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.project__live-btn {
+  background-color: #ffb310;
+  color: black;
+}
+
+.project__github-btn {
+  background-color: #00334e;
+  color: white;
+}
+
+.project__img {
+  display: block;
+  margin: 24px auto 0;
+  width: 100%;
+  max-width: 300px;
+}
+
+@media screen and (min-width: 850px) {
+  .project__wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .project__details {
+    flex-basis: 50%;
+    max-width: 500px;
+  }
+
+  .project__title {
+    font-size: 30px;
+  }
+
+  .project__info {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .project__live-btn,
+  .project__github-btn {
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .project__img-container {
+    flex-basis: 50%;
+    max-width: 500px;
+  }
+
+  .project__img {
+    margin: 0;
+    max-width: 100%;
+  }
+
+  /* nth child starts from 0 */
+  /* for odd project component */
+  .project:nth-child(odd) .project__details {
+    order: 2;
+  }
+
+  .project:nth-child(odd) .project__img-container {
+    order: 1;
+  }
+}

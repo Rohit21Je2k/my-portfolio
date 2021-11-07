@@ -1,0 +1,50 @@
+.my-details {
+  padding: 32px 0;
+}
+
+.my-details__name {
+  font-size: 30px;
+}
+
+.my-details__role {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.my-details__contacts {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 24px;
+  row-gap: 16px;
+  column-gap: 32px;
+}
+
+.my-details__contacts-icon {
+  height: 24px;
+  width: auto;
+}
+
+.my-details__contacts-number,
+.my-details__contacts-email,
+.my-details__contacts-linkedIn,
+.my-details__contacts-github {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  line-height: 1;
+  font-size: 20px;
+}
+
+.my-details__underline {
+  margin-top: 24px;
+  width: 100%;
+  height: 0.15rem;
+  background-color: black;
+}
+
+@media screen and (min-width: 720px) {
+  .my-details__contacts {
+    justify-content: space-between;
+  }
+}
